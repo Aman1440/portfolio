@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
 }
 
 
@@ -101,7 +102,7 @@ hr {
 .hero .hero-heading {
     color: var(--dark-grey);
     padding-top: 1rem;
-    margin:auto;
+    text-align: center;
 }
 
 
@@ -117,4 +118,23 @@ hr {
 
 .ow{
     background-color:#cdd0d6;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
