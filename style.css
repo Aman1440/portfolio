@@ -11,6 +11,10 @@ body {
     margin: 0px;
 }
 
+span {
+    color:rgb(202, 86, 202);
+}
+
 
 .container {
     padding-left: 1rem;
@@ -28,12 +32,18 @@ body {
 
 /* links */
 
+.link{
+    
+    margin-bottom: 1rem;
+}
+
 .link-primary {
     text-decoration: none;
     padding: 0.5rem 1rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin-top: 4rem;
 }
 
 .link-secondary {
@@ -137,4 +147,9 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: 800;
+    font-style: bold; 
 }
